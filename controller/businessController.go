@@ -304,10 +304,12 @@ func UpgradeBusiness(Business *model.Business, User *exmodel.User, db *mgo.Datab
 	techLevelerCollection := db.C(gutils.TECHLEVELER)
 	prLevelerCollection := db.C(gutils.PRLEVELER)
 	safeLevelerCollection := db.C(gutils.SAFELEVELER)
+	battleLevelerCollection := db.C(gutils.BATTLELEVELER)
 
 	var ntl *model.TechLeveler
 	var npl *model.PRLeveler
 	var nsl *model.SafeLeveler
+	var nbl *model.LevelInfoBattle
 
 	if Business.Level+1 > 15 {
 		return errors.New("level is exceeding! its impossible")
@@ -331,10 +333,20 @@ func UpgradeBusiness(Business *model.Business, User *exmodel.User, db *mgo.Datab
 		return errors.New("Safe need to be upgraded")
 	}
 
+	if Business.BattleLevel.Level != Business.BattleLevel.MaxLevel {
+		return errors.New("Battle need to be upgraded")
+	}
+
 	Business.Level = Business.Level + 1
 
 	// Getting next level things
+
 	err := techLevelerCollection.Find(bson.M{"businessLevel": nL}).One(&ntl)
+	if err != nil {
+		return err
+	}
+
+	err = battleLevelerCollection.Find(bson.M{"businessLevel": nL}).One(&nbl)
 	if err != nil {
 		return err
 	}
@@ -351,10 +363,11 @@ func UpgradeBusiness(Business *model.Business, User *exmodel.User, db *mgo.Datab
 	Business.SafeLevel.MaxLevel = nsl.LevelRange[1]
 	Business.PRLevel.MaxLevel = npl.LevelRange[1]
 	Business.TechLevel.MaxLevel = ntl.LevelRange[1]
+	Business.BattleLevel.MaxLevel = nbl.MaxLevel
 	Business.Upgradable = false
 
 	// leveling up in collection
-	businessCollection.Update(bson.M{"id": Business.ID}, bson.M{"$set": bson.M{"level": nL, "prLevel.maxLevel": npl.LevelRange[1], "techLevel.maxLevel": ntl.LevelRange[1], "safeLevel.maxLevel": nsl.LevelRange[1]}})
+	businessCollection.Update(bson.M{"id": Business.ID}, bson.M{"$set": bson.M{"level": nL, "battleLevel.maxLevel": nbl.MaxLevel, "prLevel.maxLevel": npl.LevelRange[1], "techLevel.maxLevel": ntl.LevelRange[1], "safeLevel.maxLevel": nsl.LevelRange[1]}})
 	return nil
 }
 
