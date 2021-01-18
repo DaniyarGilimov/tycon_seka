@@ -350,6 +350,9 @@ func UpgradeBusiness(Business *model.Business, User *exmodel.User, db *mgo.Datab
 	if err != nil {
 		return err
 	}
+	Business.SafeLevel.MaxLevel = nsl.LevelRange[1]
+	Business.PRLevel.MaxLevel = npl.LevelRange[1]
+	Business.TechLevel.MaxLevel = ntl.LevelRange[1]
 
 	// leveling up in collection
 	businessCollection.Update(bson.M{"id": Business.ID}, bson.M{"$set": bson.M{"level": nL, "prLevel.maxLevel": npl.LevelRange[1], "techLevel.maxLevel": ntl.LevelRange[1], "safeLevel.maxLevel": nsl.LevelRange[1]}})
