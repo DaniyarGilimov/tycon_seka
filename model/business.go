@@ -14,11 +14,12 @@ type Business struct {
 	RegistrationTime time.Time `json:"registrationTime" bson:"registrationTime"`
 
 	// Business affect
-	Level     int            `json:"level"`
-	PRLevel   *LevelInfoPR   `json:"prLevel" bson:"prLevel"`
-	TechLevel *LevelInfoTech `json:"techLevel" bson:"techLevel"`
-	SafeLevel *LevelInfoSafe `json:"safeLevel" bson:"safeLevel"`
-	TestInfo  *TestInfo      `json:"testInfo" bson:"testInfo"`
+	Level       int              `json:"level"`
+	PRLevel     *LevelInfoPR     `json:"prLevel" bson:"prLevel"`
+	TechLevel   *LevelInfoTech   `json:"techLevel" bson:"techLevel"`
+	SafeLevel   *LevelInfoSafe   `json:"safeLevel" bson:"safeLevel"`
+	TestInfo    *TestInfo        `json:"testInfo" bson:"testInfo"`
+	BattleLevel *LevelInfoBattle `json:"battleLevel" bson:"battleLevel"`
 
 	// Workers
 	CEO *Worker `json:"ceo"`
@@ -43,6 +44,13 @@ type TestInfo struct {
 	TestLeftTime  []int     `json:"testLeftTime" bson:"-"`
 	LastTestPass  time.Time `json:"-" bson:"lastTestPass"`
 	Decrimented   bool      `json:"-" bson:"decrimented"`
+}
+
+// LevelInfoBattle struct
+type LevelInfoBattle struct {
+	Level       int `json:"level" bson:"level"`
+	MaxLevel    int `json:"maxLevel" bson:"maxLevel"`
+	BattlePrice int `json:"battlePrice" bson:"battlePrice"`
 }
 
 //LevelInfoPR struct

@@ -105,3 +105,18 @@ func GetDefaultTech(db *mgo.Database) (*model.LevelInfoTech, error) {
 
 	return defaultLevel, nil
 }
+
+// GetDefaultBattle method
+func GetDefaultBattle(db *mgo.Database) (*model.LevelInfoBattle, error) {
+	battleLevelerCollection := db.C(gutils.BATTLELEVELER)
+
+	var fbl *model.LevelInfoBattle
+	err := battleLevelerCollection.Find(bson.M{"businessLevel": 1}).One(&fbl)
+	if err != nil {
+		return nil, err
+	}
+
+	// defaultLevel := &model.LevelInfoTech{Level: 1, MaxLevel: ftl.LevelRange[1], LeftSeconds: []int{0, 0}, TEPR: ftl.TEPR, TERE: ftl.TERE, TERO: ftl.TERO}
+
+	return fbl, nil
+}

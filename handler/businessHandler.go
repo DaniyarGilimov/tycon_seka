@@ -311,6 +311,15 @@ func RegisterHandler(w http.ResponseWriter, r *http.Request) {
 			return
 		}
 
+		defaultBattleLevel, err := controller.GetDefaultBattle(database)
+
+		if err != nil {
+			res.Message = err.Error() + "GetDefaultBattle"
+			w.WriteHeader(http.StatusInternalServerError)
+			json.NewEncoder(w).Encode(res)
+			return
+		}
+
 		defaultSafeLevel, err := controller.GetDefaultSafe(database)
 
 		if err != nil {
@@ -323,6 +332,7 @@ func RegisterHandler(w http.ResponseWriter, r *http.Request) {
 		business.PRLevel = defaultPRLevel
 		business.TechLevel = defaultTechLevel
 		business.SafeLevel = defaultSafeLevel
+		business.BattleLevel = defaultBattleLevel
 		business.TestInfo = &model.TestInfo{LastTestPass: time.Now().Add(time.Duration(-1) * time.Hour), TestLeftTime: []int{3600, 3600}, Decrimented: false}
 
 		err = localcontroller.InsertBusiness(businessRegist, business, database)
