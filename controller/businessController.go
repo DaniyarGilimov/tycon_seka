@@ -301,6 +301,14 @@ func GetSecLocs(db *mgo.Database) (*model.SecLoc, error) {
 func UpgradeBusiness(Business *model.Business, User *exmodel.User, db *mgo.Database) error {
 	businessCollection := db.C(gutils.BUSINESS)
 
+	techLevelerCollection := db.C(gutils.TECHLEVELER)
+	prLevelerCollection := db.C(gutils.PRLEVELER)
+	safeLevelerCollection := db.C(gutils.SAFELEVELER)
+
+	var ntl *model.TechLeveler
+	var npl *model.PRLeveler
+	var nsl *model.SafeLeveler
+
 	if Business.Level+1 > 15 {
 		return errors.New("level is exceeding! its impossible")
 	}
@@ -327,8 +335,24 @@ func UpgradeBusiness(Business *model.Business, User *exmodel.User, db *mgo.Datab
 	Business.Chips = User.Chips
 	Business.Golds = User.Golds
 
+	// Getting next level things
+	err := techLevelerCollection.Find(bson.M{"businessLevel": nL}).One(&ntl)
+	if err != nil {
+		return err
+	}
+
+	err = prLevelerCollection.Find(bson.M{"businessLevel": nL}).One(&npl)
+	if err != nil {
+		return err
+	}
+
+	err = safeLevelerCollection.Find(bson.M{"businessLevel": nL}).One(&nsl)
+	if err != nil {
+		return err
+	}
+
 	// leveling up in collection
-	businessCollection.Update(bson.M{"id": Business.ID}, bson.M{"$set": bson.M{"level": nL}})
+	businessCollection.Update(bson.M{"id": Business.ID}, bson.M{"$set": bson.M{"level": nL, "prLevel.maxLevel": npl.LevelRange[1], "techLevel.maxLevel": ntl.LevelRange[1], "safeLevel.maxLevel": nsl.LevelRange[1]}})
 	return nil
 }
 
