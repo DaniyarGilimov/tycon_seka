@@ -1,7 +1,6 @@
 package handler
 
 import (
-	"azi_api_v2/utils"
 	"encoding/json"
 	"general_game/gcontroller"
 	"general_game/gmodel"
@@ -9,6 +8,7 @@ import (
 	"io/ioutil"
 	"net/http"
 	excontroller "points/controller"
+	"points/utils"
 	"tycon_seka/controller"
 	"tycon_seka/model"
 	localutils "tycon_seka/utils"

@@ -1,13 +1,13 @@
 package runtime
 
 import (
-	aziutils "azi_api_v2/utils"
 	"encoding/json"
 	"fmt"
 	"general_game/gcontroller"
 	"io/ioutil"
 	"log"
 	"os"
+	exutils "points/utils"
 	"time"
 	"tycon_seka/controller"
 	"tycon_seka/model"
@@ -18,7 +18,7 @@ import (
 
 // DoRecovery does general recovery
 func DoRecovery() {
-	database, session, err := gcontroller.GetDB(aziutils.DBNAME, aziutils.URI)
+	database, session, err := gcontroller.GetDB(exutils.DBNAME, exutils.URI)
 
 	if err != nil {
 		log.Print("Error in establishing connectino with database")
