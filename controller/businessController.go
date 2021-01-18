@@ -3,7 +3,7 @@ package controller
 import (
 	"errors"
 	exmodel "general_game/gmodel"
-	"general_game_azi/gutils"
+	"general_game/gutils"
 	"time"
 	"tycon_seka/model"
 	"tycon_seka/utils"

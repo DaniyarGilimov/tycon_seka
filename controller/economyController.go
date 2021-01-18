@@ -1,7 +1,7 @@
 package controller
 
 import (
-	"general_game_azi/gutils"
+	"general_game/gutils"
 	"log"
 	"time"
 	"tycon_seka/model"

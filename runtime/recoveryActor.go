@@ -4,7 +4,7 @@ import (
 	aziutils "azi_api_v2/utils"
 	"encoding/json"
 	"fmt"
-	"general_game_azi/gcontroller"
+	"general_game/gcontroller"
 	"io/ioutil"
 	"log"
 	"os"

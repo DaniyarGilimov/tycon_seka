@@ -2,9 +2,9 @@ package handler
 
 import (
 	"encoding/json"
-	"general_game_azi/gcontroller"
-	"general_game_azi/gmodel"
-	"general_game_azi/gutils"
+	"general_game/gcontroller"
+	"general_game/gmodel"
+	"general_game/gutils"
 	"io/ioutil"
 	"log"
 	"net/http"
