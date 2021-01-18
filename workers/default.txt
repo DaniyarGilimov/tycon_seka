@@ -1,0 +1,34 @@
+{
+        "ID" : 0,
+        "Name" : "Samat",
+        "Surname" : "Sultanov",
+        "Age" : 18,
+        "Image" : "https://azionline.kz:4012/workers/ceo/women/",
+        "Sex" : 0,
+        "About" : "test",
+        "JobTitle" : "CEO",
+        "Phone" : "+7702153****",
+        "Email" : "example@gmail.com",
+        "Level" : 1,
+        "Jobs" : [
+                {
+                        "StartYear" : 2016,
+                        "EndYear" : 2018,
+                        "Company" : "Jigi LLP",
+                        "Location" : "Казахстан",
+                        "Comment" : "С усердием работал, и показал все свои наилучшие стороны",
+                        "Title" : "Обучение в сфере управления"
+                },
+                {
+                        "StartYear" : 2019,
+                        "EndYear" : 2020,
+                        "Company" : "Google Inc",
+                        "Location" : "США",
+                        "Comment" : "Поднял продажу и рекламу на новый уровень",
+                        "Title" : "CEO компании"
+                }
+        ],
+        "Salary" : 5,
+        "WCID" : 2,
+        "Price" : 5
+}

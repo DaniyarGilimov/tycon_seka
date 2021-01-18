@@ -1,0 +1,2477 @@
+[
+    {
+       "ID":0,
+       "Name":"Nursulu",
+       "Surname":"Yerikeva",
+       "Age":19,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (1).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7702584****",
+       "Email":"NursuluYerikeva@drive.com",
+       "Level":1,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":1,
+       "Name":"Gulfiya",
+       "Surname":"Ruslaneva",
+       "Age":28,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (2).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7708405****",
+       "Email":"GulfiyaRuslanevaundefined",
+       "Level":1,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":2,
+       "Name":"Aru",
+       "Surname":"Nursultaneva",
+       "Age":23,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (3).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7707152****",
+       "Email":"AruNursultaneva@skype.com",
+       "Level":1,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":3,
+       "Name":"Tatti",
+       "Surname":"Medetova",
+       "Age":27,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (4).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7702776****",
+       "Email":"TattiMedetovaundefined",
+       "Level":1,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":4,
+       "Name":"Jaina",
+       "Surname":"Nurzhaneva",
+       "Age":23,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (5).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7702000****",
+       "Email":"JainaNurzhaneva@drive.com",
+       "Level":1,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":5,
+       "Name":"Aisana",
+       "Surname":"Ardagereva",
+       "Age":20,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (6).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7702107****",
+       "Email":"AisanaArdagerevaundefined",
+       "Level":2,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":6,
+       "Name":"Assem",
+       "Surname":"Rustameva",
+       "Age":26,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (7).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7705127****",
+       "Email":"AssemRustamevaundefined",
+       "Level":2,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":7,
+       "Name":"Perizat",
+       "Surname":"Dauletova",
+       "Age":24,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (8).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7701551****",
+       "Email":"PerizatDauletova@mail.ru",
+       "Level":2,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":8,
+       "Name":"Asylgul",
+       "Surname":"Sultanova",
+       "Age":24,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (9).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7702668****",
+       "Email":"AsylgulSultanova@mail.ru",
+       "Level":2,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":9,
+       "Name":"Erke",
+       "Surname":"Kholmatzhoneva",
+       "Age":24,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (10).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7708053****",
+       "Email":"ErkeKholmatzhoneva@skype.com",
+       "Level":2,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":10,
+       "Name":"Bazargul",
+       "Surname":"Sakenova",
+       "Age":23,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (11).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7707558****",
+       "Email":"BazargulSakenova@mail.ru",
+       "Level":3,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":11,
+       "Name":"Qundyz",
+       "Surname":"Temirzhaneva",
+       "Age":19,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (12).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7708221****",
+       "Email":"QundyzTemirzhaneva@gmail.com",
+       "Level":3,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":12,
+       "Name":"Nurziya",
+       "Surname":"Ericeva",
+       "Age":28,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (13).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7705627****",
+       "Email":"NurziyaEricevaundefined",
+       "Level":3,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":13,
+       "Name":"Sakypjamal",
+       "Surname":"Abzalova",
+       "Age":32,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (14).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7702811****",
+       "Email":"SakypjamalAbzalova@skype.com",
+       "Level":3,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":14,
+       "Name":"Alma",
+       "Surname":"Samatova",
+       "Age":19,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (15).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7708421****",
+       "Email":"AlmaSamatovaundefined",
+       "Level":3,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":15,
+       "Name":"Dariya",
+       "Surname":"Nurzhanova",
+       "Age":29,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (16).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7707305****",
+       "Email":"DariyaNurzhanova@mail.ru",
+       "Level":4,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":16,
+       "Name":"Tatti",
+       "Surname":"Jeaneva",
+       "Age":30,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (17).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7707031****",
+       "Email":"TattiJeanevaundefined",
+       "Level":4,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":17,
+       "Name":"Balbike",
+       "Surname":"Tarasova",
+       "Age":31,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (18).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7708758****",
+       "Email":"BalbikeTarasova@mail.ru",
+       "Level":4,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":18,
+       "Name":"Altynai",
+       "Surname":"Talgateva",
+       "Age":30,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (19).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7702580****",
+       "Email":"AltynaiTalgateva@mail.ru",
+       "Level":4,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":19,
+       "Name":"Zoya",
+       "Surname":"Askareva",
+       "Age":26,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (20).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7708025****",
+       "Email":"ZoyaAskareva@skype.com",
+       "Level":4,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":20,
+       "Name":"Ayazhan",
+       "Surname":"Amanetova",
+       "Age":31,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (21).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7705714****",
+       "Email":"AyazhanAmanetova@gmail.com",
+       "Level":5,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":21,
+       "Name":"Sholpan",
+       "Surname":"Almaseva",
+       "Age":27,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (22).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7702450****",
+       "Email":"SholpanAlmaseva@mail.ru",
+       "Level":5,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":22,
+       "Name":"Jadyra",
+       "Surname":"Medeteva",
+       "Age":30,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (23).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7701634****",
+       "Email":"JadyraMedeteva@skype.com",
+       "Level":5,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":23,
+       "Name":"Maira",
+       "Surname":"Akmetzhaneva",
+       "Age":19,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (24).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7708273****",
+       "Email":"MairaAkmetzhaneva@drive.com",
+       "Level":5,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":24,
+       "Name":"Tatti",
+       "Surname":"Taraseva",
+       "Age":29,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (25).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7708274****",
+       "Email":"TattiTaraseva@mail.ru",
+       "Level":5,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":25,
+       "Name":"Gulayim",
+       "Surname":"Yermekova",
+       "Age":28,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (26).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7702275****",
+       "Email":"GulayimYermekovaundefined",
+       "Level":6,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":26,
+       "Name":"Arujan",
+       "Surname":"Askarova",
+       "Age":29,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (27).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7705821****",
+       "Email":"ArujanAskarovaundefined",
+       "Level":6,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":27,
+       "Name":"Sayra",
+       "Surname":"Ravilova",
+       "Age":20,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (28).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7707101****",
+       "Email":"SayraRavilova@mail.ru",
+       "Level":6,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":28,
+       "Name":"Aina",
+       "Surname":"Taireva",
+       "Age":26,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (29).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7702537****",
+       "Email":"AinaTairevaundefined",
+       "Level":6,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":29,
+       "Name":"Lyazzat",
+       "Surname":"Iskanderova",
+       "Age":30,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (30).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7702138****",
+       "Email":"LyazzatIskanderova@drive.com",
+       "Level":6,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":30,
+       "Name":"Raisa",
+       "Surname":"Askarova",
+       "Age":22,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (31).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7707307****",
+       "Email":"RaisaAskarova@skype.com",
+       "Level":7,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":31,
+       "Name":"Qalamqas",
+       "Surname":"Sakenova",
+       "Age":30,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (32).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7702622****",
+       "Email":"QalamqasSakenovaundefined",
+       "Level":7,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":32,
+       "Name":"Aktolkin",
+       "Surname":"Baltabekova",
+       "Age":20,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (33).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7705033****",
+       "Email":"AktolkinBaltabekova@drive.com",
+       "Level":7,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":33,
+       "Name":"Jansulu",
+       "Surname":"Olzhaseva",
+       "Age":21,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (34).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7702667****",
+       "Email":"JansuluOlzhaseva@skype.com",
+       "Level":7,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":34,
+       "Name":"Inkar",
+       "Surname":"Ericeva",
+       "Age":28,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (35).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7702104****",
+       "Email":"InkarEriceva@mail.ru",
+       "Level":7,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":35,
+       "Name":"Gulmira",
+       "Surname":"Yerbolateva",
+       "Age":28,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (36).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7707451****",
+       "Email":"GulmiraYerbolateva@skype.com",
+       "Level":8,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":36,
+       "Name":"Bayan",
+       "Surname":"Taraseva",
+       "Age":25,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (37).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7705637****",
+       "Email":"BayanTarasevaundefined",
+       "Level":8,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":37,
+       "Name":"Batima",
+       "Surname":"Dauleteva",
+       "Age":31,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (38).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7701817****",
+       "Email":"BatimaDauleteva@gmail.com",
+       "Level":8,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":38,
+       "Name":"Mariyam",
+       "Surname":"Bekbolateva",
+       "Age":26,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (39).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7705181****",
+       "Email":"MariyamBekbolateva@drive.com",
+       "Level":8,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":39,
+       "Name":"Zamzagul",
+       "Surname":"Ablaieva",
+       "Age":21,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (40).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7707538****",
+       "Email":"ZamzagulAblaieva@gmail.com",
+       "Level":8,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":40,
+       "Name":"Guldaria",
+       "Surname":"Dastanova",
+       "Age":19,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (41).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7708160****",
+       "Email":"GuldariaDastanovaundefined",
+       "Level":9,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":41,
+       "Name":"Jaina",
+       "Surname":"Samateva",
+       "Age":28,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (42).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7707043****",
+       "Email":"JainaSamateva@skype.com",
+       "Level":9,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":42,
+       "Name":"Arujan",
+       "Surname":"Nurbekeva",
+       "Age":18,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (43).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7702474****",
+       "Email":"ArujanNurbekeva@gmail.com",
+       "Level":9,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":43,
+       "Name":"Botakoz",
+       "Surname":"Azamatova",
+       "Age":20,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (44).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7702777****",
+       "Email":"BotakozAzamatova@drive.com",
+       "Level":9,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":44,
+       "Name":"Jansulu",
+       "Surname":"Ardagerova",
+       "Age":29,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (45).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7708386****",
+       "Email":"JansuluArdagerova@skype.com",
+       "Level":9,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":45,
+       "Name":"Ulbala",
+       "Surname":"Abzalova",
+       "Age":30,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (46).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7708072****",
+       "Email":"UlbalaAbzalova@mail.ru",
+       "Level":10,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":46,
+       "Name":"Meyramgul",
+       "Surname":"Rasulova",
+       "Age":29,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (47).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7701848****",
+       "Email":"MeyramgulRasulovaundefined",
+       "Level":10,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":47,
+       "Name":"Shinar",
+       "Surname":"Temirzhanova",
+       "Age":31,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (48).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7701573****",
+       "Email":"ShinarTemirzhanovaundefined",
+       "Level":10,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":48,
+       "Name":"Hatima",
+       "Surname":"Daniyareva",
+       "Age":26,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (49).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7705858****",
+       "Email":"HatimaDaniyareva@mail.ru",
+       "Level":10,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":49,
+       "Name":"Janat",
+       "Surname":"Iliyasova",
+       "Age":31,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (50).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7707071****",
+       "Email":"JanatIliyasova@drive.com",
+       "Level":10,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":50,
+       "Name":"Zamzagul",
+       "Surname":"Bekbolateva",
+       "Age":24,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (51).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7707513****",
+       "Email":"ZamzagulBekbolateva@drive.com",
+       "Level":11,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":51,
+       "Name":"Anargul",
+       "Surname":"Alibieva",
+       "Age":31,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (52).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7705006****",
+       "Email":"AnargulAlibievaundefined",
+       "Level":11,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":52,
+       "Name":"Alaphia",
+       "Surname":"Khazretgaliova",
+       "Age":23,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (53).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7707587****",
+       "Email":"AlaphiaKhazretgaliova@skype.com",
+       "Level":11,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":53,
+       "Name":"Jangul",
+       "Surname":"Serikbekeva",
+       "Age":29,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (54).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7707884****",
+       "Email":"JangulSerikbekeva@skype.com",
+       "Level":11,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":54,
+       "Name":"Sulu",
+       "Surname":"Timourova",
+       "Age":26,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (55).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7708865****",
+       "Email":"SuluTimourova@mail.ru",
+       "Level":11,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":55,
+       "Name":"Jadyra",
+       "Surname":"Yedilova",
+       "Age":19,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (56).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7707372****",
+       "Email":"JadyraYedilova@skype.com",
+       "Level":12,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":56,
+       "Name":"Sabira",
+       "Surname":"Kairatova",
+       "Age":32,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (57).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7707370****",
+       "Email":"SabiraKairatova@skype.com",
+       "Level":12,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":57,
+       "Name":"Shara",
+       "Surname":"Diaseva",
+       "Age":32,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (58).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7707643****",
+       "Email":"SharaDiaseva@mail.ru",
+       "Level":12,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":58,
+       "Name":"Zukhra",
+       "Surname":"Amireva",
+       "Age":20,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (59).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7708224****",
+       "Email":"ZukhraAmireva@skype.com",
+       "Level":12,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":59,
+       "Name":"Gulmarzhan",
+       "Surname":"Assylhanova",
+       "Age":26,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (60).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7702214****",
+       "Email":"GulmarzhanAssylhanovaundefined",
+       "Level":12,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":60,
+       "Name":"Dariga",
+       "Surname":"Bekbolateva",
+       "Age":23,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (61).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7705386****",
+       "Email":"DarigaBekbolateva@drive.com",
+       "Level":13,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":61,
+       "Name":"Mariyam",
+       "Surname":"Daniyarova",
+       "Age":26,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (62).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7707478****",
+       "Email":"MariyamDaniyarova@gmail.com",
+       "Level":13,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":62,
+       "Name":"Aikorkem",
+       "Surname":"Madieva",
+       "Age":24,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (63).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7705270****",
+       "Email":"AikorkemMadieva@mail.ru",
+       "Level":13,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":63,
+       "Name":"Qazyna",
+       "Surname":"Achmedjanova",
+       "Age":20,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (64).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7707725****",
+       "Email":"QazynaAchmedjanova@skype.com",
+       "Level":13,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":64,
+       "Name":"Aizada",
+       "Surname":"Fauskeeva",
+       "Age":32,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (65).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7707000****",
+       "Email":"AizadaFauskeeva@gmail.com",
+       "Level":13,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":65,
+       "Name":"Raya",
+       "Surname":"Olzhasova",
+       "Age":24,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (66).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7708510****",
+       "Email":"RayaOlzhasova@gmail.com",
+       "Level":14,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":66,
+       "Name":"Saida",
+       "Surname":"Almasova",
+       "Age":27,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (67).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7705744****",
+       "Email":"SaidaAlmasova@gmail.com",
+       "Level":14,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":67,
+       "Name":"Aizhan",
+       "Surname":"Hojaniasova",
+       "Age":23,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (68).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7705611****",
+       "Email":"AizhanHojaniasova@drive.com",
+       "Level":14,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":68,
+       "Name":"Asyl",
+       "Surname":"Ablaiova",
+       "Age":23,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (69).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7702864****",
+       "Email":"AsylAblaiova@skype.com",
+       "Level":14,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":69,
+       "Name":"Luiza",
+       "Surname":"Khazretgalieva",
+       "Age":31,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (70).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7708482****",
+       "Email":"LuizaKhazretgalieva@skype.com",
+       "Level":14,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":70,
+       "Name":"Saltanat",
+       "Surname":"Daniyarova",
+       "Age":26,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (71).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7701788****",
+       "Email":"SaltanatDaniyarova@gmail.com",
+       "Level":15,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":71,
+       "Name":"Qalamqas",
+       "Surname":"Medeteva",
+       "Age":26,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (72).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7705370****",
+       "Email":"QalamqasMedeteva@gmail.com",
+       "Level":15,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":72,
+       "Name":"Arujan",
+       "Surname":"Turlanova",
+       "Age":22,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (73).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7707340****",
+       "Email":"ArujanTurlanova@mail.ru",
+       "Level":15,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":73,
+       "Name":"Dilya",
+       "Surname":"Narimaneva",
+       "Age":27,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (74).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7701276****",
+       "Email":"DilyaNarimaneva@drive.com",
+       "Level":15,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    },
+    {
+       "ID":74,
+       "Name":"Sezim",
+       "Surname":"Beibitzhaneva",
+       "Age":20,
+       "Image":"https://azionline.kz:4041/workers/cto/women?name=LmpwZw (75).jpg",
+       "Sex":0,
+       "About":"test",
+       "JobTitle":"CTO",
+       "Phone":"+7701854****",
+       "Email":"SezimBeibitzhaneva@skype.com",
+       "Level":15,
+       "Jobs":[
+          {
+             "StartYear":2016,
+             "EndYear":2018,
+             "Company":"Jigi LLP",
+             "Location":"Казахстан",
+             "Comment":"С усердием работал, и показал все свои наилучшие стороны",
+             "Title":"Обучение в сфере управления"
+          },
+          {
+             "StartYear":2019,
+             "EndYear":2020,
+             "Company":"Google Inc",
+             "Location":"США",
+             "Comment":"Поднял инженерию на новый уровень",
+             "Title":"CTO компании"
+          }
+       ],
+       "Salary":5,
+       "Price":5
+    }
+ ]

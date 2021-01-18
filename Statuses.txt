@@ -1,0 +1,4 @@
+400 - token wrong, token not send
+500 - internal server error
+
+452 - unique name required for business
