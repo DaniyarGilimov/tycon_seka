@@ -9,7 +9,7 @@ type Business struct {
 	ID               int       `json:"id"`
 	UserToken        string    `json:"-" bson:"userToken"`
 	Owner            string    `json:"owner" bson:"owner"`
-	OwnerID          int       `json:"ownerID" bson:"ownerID"`
+	OwnerID          int       `json:"-" bson:"ownerID"`
 	Name             string    `json:"name"`
 	Sector           *Sector   `json:"sector"`
 	Location         *Location `json:"location"`
