@@ -280,6 +280,8 @@ func RegisterHandler(w http.ResponseWriter, r *http.Request) {
 		registrationLock.Unlock()
 
 		business.ID = id
+		business.Owner = user.DisplayName
+		business.OwnerID = user.UserID
 		business.Name = businessRegist.Name
 		business.Level = 1
 
@@ -421,6 +423,58 @@ func GetSecotrsHandler(w http.ResponseWriter, r *http.Request) {
 
 	if err != nil {
 		res.Message = "Error Get sectors. Not Found"
+		w.WriteHeader(http.StatusBadRequest)
+		json.NewEncoder(w).Encode(res)
+		return
+	}
+
+	res.Message = "SUCCESS"
+
+	res.Result = result
+
+	w.WriteHeader(http.StatusOK)
+	json.NewEncoder(w).Encode(res)
+	return
+}
+
+// GetTopBusinessesHandler gives all top businesses by sectorId
+func GetTopBusinessesHandler(w http.ResponseWriter, r *http.Request) {
+	w.Header().Set("Content-Type", "application/json")
+
+	var res gmodel.Response
+
+	_, err := gutils.CheckTokens(r, utils.TOKEN)
+
+	if err != nil {
+		res.Message = err.Error()
+		w.WriteHeader(http.StatusBadRequest)
+		json.NewEncoder(w).Encode(res)
+		return
+	}
+
+	SID, err := GetSID(r)
+
+	if err != nil {
+		res.Message = err.Error()
+		w.WriteHeader(http.StatusBadRequest)
+		json.NewEncoder(w).Encode(res)
+		return
+	}
+
+	database, session, err := gcontroller.GetDB(utils.DBNAME, utils.URI)
+	defer session.Close()
+
+	if err != nil {
+		res.Message = err.Error()
+		w.WriteHeader(http.StatusInternalServerError)
+		json.NewEncoder(w).Encode(res)
+		return
+	}
+
+	result, err := localcontroller.GetTopBusinesses(SID, database)
+
+	if err != nil {
+		res.Message = "Error Get Business. Not Found"
 		w.WriteHeader(http.StatusBadRequest)
 		json.NewEncoder(w).Encode(res)
 		return

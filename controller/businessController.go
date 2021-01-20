@@ -146,6 +146,18 @@ func GetMyStatistics(BID int, db *mgo.Database) (*model.TyconStatistics, error) 
 	return stat, err
 }
 
+// GetTopBusinesses is used to get top by sectorId businesses
+func GetTopBusinesses(sectorID int, db *mgo.Database) ([]*model.Business, error) {
+	businessCollection := db.C(gutils.BUSINESS)
+	business := []*model.Business{}
+	pipea := []bson.M{bson.M{"$sort": bson.M{"level": -1}}, bson.M{"$match": bson.M{"sector.id": sectorID}}, bson.M{"$limit": 10}}
+	err := businessCollection.Pipe(pipea).All(&business)
+	if err != nil {
+		return nil, err
+	}
+	return business, err
+}
+
 // GetQuestions is used to get questions
 func GetQuestions(db *mgo.Database) ([]*model.Question, error) {
 	testCollection := db.C(gutils.TESTQUESTIONS)

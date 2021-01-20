@@ -44,6 +44,9 @@ func main() {
 	r.HandleFunc("/api/v1/get/secloc", handler.GetSeclocsHandler).
 		Methods("GET")
 
+	r.HandleFunc("/api/v1/top/{sid}", handler.GetTopBusinessesHandler).
+		Methods("GET")
+
 	r.HandleFunc("/api/v1/get/business/pr/{bid}", handler.GetPPRHandler).
 		Methods("GET")
 	r.HandleFunc("/api/v1/upgrade/pr/{bid}", handler.UpgradePRHandler).
