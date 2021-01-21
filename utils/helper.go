@@ -42,7 +42,7 @@ func UpdateLeftTimes(Business *model.Business, User *exmodel.User) {
 
 	b := Business
 	wl := b.Level + 1
-	if b.PR.Level == wl && b.CTO.Level == wl && b.CEO.Level == wl && b.PRLevel.Level == b.PRLevel.MaxLevel && b.TechLevel.Level == b.TechLevel.MaxLevel && b.SafeLevel.Level == b.SafeLevel.MaxLevel {
+	if b.PR.Level == wl && b.CTO.Level == wl && b.CEO.Level == wl && b.PRLevel.Level == b.PRLevel.MaxLevel && b.TechLevel.Level == b.TechLevel.MaxLevel && b.SafeLevel.Level == b.SafeLevel.MaxLevel && b.BattleLevel.Level == b.BattleLevel.MaxLevel {
 		Business.Upgradable = true
 	}
 
