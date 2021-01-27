@@ -4,6 +4,13 @@ import (
 	"time"
 )
 
+// MyBusinesses struct
+type MyBusinesses struct {
+	Businesses  []*Business `json:"businesses"`
+	CanCreate   bool        `json:"canCreate"`
+	NeededLevel int         `json:"neededLevel"`
+}
+
 // Business struct
 type Business struct {
 	ID               int       `json:"id"`

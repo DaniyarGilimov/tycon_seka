@@ -111,14 +111,26 @@ func InsertBusiness(BusinessRegist *model.BusinessRegist, Business *model.Busine
 }
 
 // GetMyBusinesses is used to get businesses
-func GetMyBusinesses(UserToken string, db *mgo.Database) ([]*model.Business, error) {
+func GetMyBusinesses(UserToken string, db *mgo.Database) (*model.MyBusinesses, error) {
+	res := &model.MyBusinesses{}
 	businessCollection := db.C(gutils.BUSINESS)
 	business := []*model.Business{}
 	err := businessCollection.Find(bson.M{"userToken": UserToken}).All(&business)
 	if err != nil {
 		return nil, err
 	}
-	return business, err
+	res.Businesses = business
+	res.CanCreate = true
+	if len(business) > 0 {
+		for _, b := range business {
+			if b.Level < utils.BusinessLevelAllMin {
+				res.CanCreate = false
+				break
+			}
+		}
+	}
+	res.NeededLevel = utils.BusinessLevelAllMin
+	return res, err
 }
 
 // GetMyStatistics is used to get statistics

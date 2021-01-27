@@ -8,4 +8,7 @@ const (
 	BankFillTime = 60
 	// TimerTest time for passing test
 	TimerTest = 90
+
+	// BusinessLevelAllMin required level of business each needed to create another business
+	BusinessLevelAllMin = 3
 )
