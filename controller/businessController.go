@@ -2,7 +2,6 @@ package controller
 
 import (
 	"errors"
-	exmodel "general_game/gmodel"
 	"general_game/gutils"
 	"time"
 	"tycon_seka/model"
@@ -162,7 +161,12 @@ func GetMyStatistics(BID int, db *mgo.Database) (*model.TyconStatistics, error) 
 func GetTopBusinesses(sectorID int, db *mgo.Database) ([]*model.Business, error) {
 	businessCollection := db.C(gutils.BUSINESS)
 	business := []*model.Business{}
-	pipea := []bson.M{bson.M{"$sort": bson.M{"level": -1}}, bson.M{"$match": bson.M{"sector.id": sectorID}}, bson.M{"$limit": 10}}
+	pipea := []bson.M{}
+	if sectorID != -1 {
+		pipea = []bson.M{{"$sort": bson.M{"level": -1}}, {"$match": bson.M{"sector.id": sectorID}}, {"$limit": 10}}
+	} else {
+		pipea = []bson.M{{"$sort": bson.M{"level": -1}}, {"$limit": 10}}
+	}
 	err := businessCollection.Pipe(pipea).All(&business)
 	if err != nil {
 		return nil, err
@@ -175,7 +179,7 @@ func GetQuestions(db *mgo.Database) ([]*model.Question, error) {
 	testCollection := db.C(gutils.TESTQUESTIONS)
 	var questions []*model.Question
 
-	pipea := []bson.M{bson.M{"$sample": bson.M{"size": 5}}}
+	pipea := []bson.M{{"$sample": bson.M{"size": 5}}}
 
 	err := testCollection.Pipe(pipea).All(&questions)
 	if err != nil {
@@ -322,7 +326,7 @@ func GetSecLocs(db *mgo.Database) (*model.SecLoc, error) {
 }
 
 // UpgradeBusiness is used to upgrade business
-func UpgradeBusiness(Business *model.Business, User *exmodel.User, db *mgo.Database) error {
+func UpgradeBusiness(Business *model.Business, db *mgo.Database) error {
 	businessCollection := db.C(gutils.BUSINESS)
 
 	techLevelerCollection := db.C(gutils.TECHLEVELER)

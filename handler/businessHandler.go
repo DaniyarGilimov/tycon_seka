@@ -619,7 +619,7 @@ func UpgradeBusinessHandler(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	user, err := excontroller.GetUserByToken(userToken, database)
+	_, err = excontroller.GetUserByToken(userToken, database)
 
 	if err != nil {
 		res.Message = "Error Get User by token. Not Found"
@@ -635,7 +635,7 @@ func UpgradeBusinessHandler(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	err = controller.UpgradeBusiness(business, user, database)
+	err = controller.UpgradeBusiness(business, database)
 
 	if err != nil {
 		if err.Error() == "ner" {

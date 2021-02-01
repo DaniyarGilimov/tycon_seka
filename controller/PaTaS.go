@@ -404,12 +404,12 @@ func CollectSafe(Business *model.Business, User *exmodel.User, db *mgo.Database)
 	dTime := int(float64(Business.SafeLevel.CurrentCapacity) / Business.SafeLevel.CurrentVelocity)
 	endTime := time.Now().Add(time.Duration(dTime) * time.Second)
 
-	Business.SafeLevel.SafeParts = []*model.SafePart{&model.SafePart{Velocity: Business.SafeLevel.CurrentVelocity, StartTime: time.Now(), EndTime: endTime}}
+	Business.SafeLevel.SafeParts = []*model.SafePart{{Velocity: Business.SafeLevel.CurrentVelocity, StartTime: time.Now(), EndTime: endTime}}
 	Business.SafeLevel.Sum = 0
 	//Business.SafeLevel.LeftTime = []int{0, int(float64(Business.SafeLevel.CurrentCapacity) / Business.SafeLevel.CurrentVelocity)}
 
 	// leveling up in collection
-	businessCollection.Update(bson.M{"id": Business.ID}, bson.M{"$set": bson.M{"safeLevel.safeParts": []bson.M{bson.M{"velocity": Business.SafeLevel.CurrentVelocity, "endTime": endTime, "startTime": time.Now()}}}})
+	businessCollection.Update(bson.M{"id": Business.ID}, bson.M{"$set": bson.M{"safeLevel.safeParts": []bson.M{{"velocity": Business.SafeLevel.CurrentVelocity, "endTime": endTime, "startTime": time.Now()}}}})
 	usersCollection.Update(bson.M{"userId": User.UserID}, bson.M{"$set": bson.M{"chips": User.Chips}})
 
 	return nil

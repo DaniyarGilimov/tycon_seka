@@ -15,7 +15,7 @@ import (
 func GetCTOs(Level int, db *mgo.Database) ([]*model.Worker, error) {
 	ctosCollection := db.C(gutils.CTOS)
 	workers := []*model.Worker{}
-	pipea := []bson.M{bson.M{"$match": bson.M{"Level": Level}}}
+	pipea := []bson.M{{"$match": bson.M{"Level": Level}}}
 	err := ctosCollection.Pipe(pipea).All(&workers)
 	if err != nil {
 		return nil, err
@@ -27,7 +27,7 @@ func GetCTOs(Level int, db *mgo.Database) ([]*model.Worker, error) {
 func GetCEOs(Level int, db *mgo.Database) ([]*model.Worker, error) {
 	ceosCollection := db.C(gutils.CEOS)
 	workers := []*model.Worker{}
-	pipea := []bson.M{bson.M{"$match": bson.M{"Level": Level}}}
+	pipea := []bson.M{{"$match": bson.M{"Level": Level}}}
 	err := ceosCollection.Pipe(pipea).All(&workers)
 	if err != nil {
 		return nil, err
@@ -39,7 +39,7 @@ func GetCEOs(Level int, db *mgo.Database) ([]*model.Worker, error) {
 func GetPRs(Level int, db *mgo.Database) ([]*model.Worker, error) {
 	prsCollection := db.C(gutils.PRS)
 	workers := []*model.Worker{}
-	pipea := []bson.M{bson.M{"$match": bson.M{"Level": Level}}}
+	pipea := []bson.M{{"$match": bson.M{"Level": Level}}}
 	err := prsCollection.Pipe(pipea).All(&workers)
 	if err != nil {
 		return nil, err

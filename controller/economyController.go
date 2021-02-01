@@ -28,7 +28,7 @@ func GetDefaultSafe(db *mgo.Database) (*model.LevelInfoSafe, error) {
 
 	// below LeftTime: []int{0, int(maxTime)}
 	defSafe := &model.LevelInfoSafe{Level: 1, MaxLevel: fsl.LevelRange[1], UpgradePrice: &model.Price{Chips: fsl.UpgradePrice.Chips, Golds: fsl.UpgradePrice.Golds}, UpgradeTakeTime: fsl.UpgradeTime, UpgradeCapacity: fsl.CapacityRange[1], CurrentVelocity: fVel, CurrentCapacity: fsl.CapacityRange[0], Sum: fsl.CapacityRange[0], LeftSeconds: []int{0, 0}}
-	defSafe.SafeParts = []*model.SafePart{&model.SafePart{Velocity: defSafe.CurrentVelocity, StartTime: time.Now(), EndTime: time.Now().Add(time.Duration(float64(defSafe.CurrentCapacity)/defSafe.CurrentVelocity) * time.Second)}}
+	defSafe.SafeParts = []*model.SafePart{{Velocity: defSafe.CurrentVelocity, StartTime: time.Now(), EndTime: time.Now().Add(time.Duration(float64(defSafe.CurrentCapacity)/defSafe.CurrentVelocity) * time.Second)}}
 
 	return defSafe, nil
 }
@@ -42,12 +42,12 @@ func GetNextSafe(Business *model.Business, db *mgo.Database) (*model.LevelInfoSa
 
 	var fsl *model.SafeLeveler
 	pipe := []bson.M{
-		bson.M{"$project": bson.M{"businessLevel": 1, "levelRange": 1, "capacityRange": 1, "upgradeTime": 1, "upgradePrice": 1, "last": bson.M{"$arrayElemAt": []interface{}{"$levelRange", -1}}}},
-		bson.M{
+		{"$project": bson.M{"businessLevel": 1, "levelRange": 1, "capacityRange": 1, "upgradeTime": 1, "upgradePrice": 1, "last": bson.M{"$arrayElemAt": []interface{}{"$levelRange", -1}}}},
+		{
 			"$match": bson.M{
 				"$or": []bson.M{
-					bson.M{"levelRange": bson.M{"$gt": nowLevel, "$lt": nowLevel + 2}},
-					bson.M{"last": nowLevel + 1},
+					{"levelRange": bson.M{"$gt": nowLevel, "$lt": nowLevel + 2}},
+					{"last": nowLevel + 1},
 				},
 			},
 		},
@@ -71,7 +71,7 @@ func GetNextSafe(Business *model.Business, db *mgo.Database) (*model.LevelInfoSa
 	//maxTime := float64(currentCapacity) / sl.CurrentVelocity
 	//below LeftTime: []int{0, int(maxTime)}
 	defSafe := &model.LevelInfoSafe{Level: nowLevel, MaxLevel: maxLevel, UpgradePrice: fsl.UpgradePrice, UpgradeTakeTime: fsl.UpgradeTime, UpgradeCapacity: upgradeCapacit, CurrentVelocity: sl.CurrentVelocity, CurrentCapacity: currentCapacity, Sum: 0, LeftSeconds: []int{0, 0}}
-	defSafe.SafeParts = []*model.SafePart{&model.SafePart{Velocity: defSafe.CurrentVelocity, StartTime: time.Now(), EndTime: time.Now().Add(time.Duration(float64(defSafe.CurrentCapacity)/defSafe.CurrentVelocity) * time.Second)}}
+	defSafe.SafeParts = []*model.SafePart{{Velocity: defSafe.CurrentVelocity, StartTime: time.Now(), EndTime: time.Now().Add(time.Duration(float64(defSafe.CurrentCapacity)/defSafe.CurrentVelocity) * time.Second)}}
 
 	return defSafe, nil
 }
